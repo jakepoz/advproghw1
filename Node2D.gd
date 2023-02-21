@@ -22,8 +22,10 @@ func draw_arrow(from, to, color):
 	draw_circle(from, 5, color)
 	draw_line(from, to, color, 3.0)
 	
+	var dir = (to - from).normalized()
+	var head = 25
 	
-	draw_polygon([to, to + Vector2(5, 0), to + Vector2(5, 5), to], [color])
+	draw_polygon([to, to - dir * head + dir.tangent() * head, to - dir * head - dir.tangent() * head, to], [color])
 	
 
 func _draw():
