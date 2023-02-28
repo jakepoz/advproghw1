@@ -43,23 +43,25 @@ draw_line and/or draw_polygon Godot functions. Don't just draw a texture! We wan
 
 Now, let's start to use the editor to draw a Sprite on the screen. A Sprite is basically any moving texture or character that's seperate from the background.
 
-Step 1. Open the Problem3.tscn file, and go to the "2D" mode in the editor.
-
-Step 2. Drag and drop the "icon.png" file from the FileSystem tab in the editor onto the center of the viewport. (The blue line in the editor shows the size of the game window) It should look something like the following:
+Step 1. Open the Problem3.tscn file, and go to the "2D" mode in the editor. You should see that there is an image showing in the editor already.
 
 ![image](https://user-images.githubusercontent.com/392417/221952076-77a6f014-fa6c-4c81-a109-87a6c0dec9f5.png)
 
-Step 3. What we want to do is make the eagle image rotate to face the mouse cursor pointer.
+Step 2. If you run the scene (F6), you wil see that the icon rotate to "look at" your mouse cursor.
+
+Step 3. Open the Problem3.gd code file, you will see that this is implemented using the Godot built-in "look_at" function.
+
+Your job is to comment out the `$Icon.look_at(mouse)` code, and write your own version!
 
 ![image](https://user-images.githubusercontent.com/392417/221955191-a1736763-c25a-4519-82e5-f57952c63cea.png)
 
 Consider the image above. By default, Godot is going to track the position and rotation of a Sprite from the center of the image. The red dot represents the mouse pointer position. These two points form a right triangle, with an angle θ between them.
 
-From trigonometry, what is the tan(θ)?
+From trigonometry, what is the $tan(\theta)$?
 
 ...
 
-That's right!
+That's right! SOH CAH TOA people!
 
 $tan(\theta) = \frac{y}{x}$
 
@@ -69,6 +71,6 @@ $arctan(\frac{y}{x}) = \theta\$
 
 To calculate $arctan$, Godot offers two functions [`atan`](https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan) [`atan2`](https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan2)
 
-They both will return the angle you are looking for, `atan` takes one parameter, the fraction `y/x`, while `atan2` takes two parameters, `y` and `x` seperately. This works better because it avoid the nastiniess around dividing something by zero.
+They both will return the angle you are looking for, `atan` takes one parameter, the fraction `y/x`, while `atan2` takes two parameters, `y` and `x` seperately. `atan2` works better because it avoid the nastiniess around dividing something by zero.
 
-
+Step 4. Once you make the sprite rotate to face the mouse pointer, make it move towards the mouse when you press the left mouse button.
