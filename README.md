@@ -9,8 +9,7 @@ You will solve a few problems that will mostly go over the syntax, datatypes, pa
 
 1. Download this repository as a zip file, and open it with Godot 3.5.1.
 
-1. In the editor, you should see each problem as a Scene within the scene list of the left. Each problem is self-contained, so start with the Problem1, then 
-click on the "Script" view to see the attached code.
+1. In the editor, you should see each problem as a Scene within the filesystem list of the left. Each problem is self-contained, so start with the Problem1, then click on the "Script" view to see the attached code.
 
 1. You can view the current scene by pressing the F6 key on your keyboard.
 
@@ -24,6 +23,18 @@ click on the "Script" view to see the attached code.
 
 We will start with some simple static drawing commands. Please draw a circle that's centered on horizontally, and attached to the bottom of the screen as in the screenshot below.
 
-You can use the `get_viewport_rect()` function to get a [Rect2](https://docs.godotengine.org/en/stable/classes/class_rect2.html) which tells you the width and height of the screen
+You can use the `get_viewport_rect()` function to get a [Rect2](https://docs.godotengine.org/en/stable/classes/class_rect2.html) which tells you the width and height of the screen. Then, write another call to `draw_circle` to accomplish your task.
 
 ![image](https://user-images.githubusercontent.com/392417/221939038-43c13a1b-4305-4d13-8191-e46c0814f700.png)
+
+#### Problem 2
+
+Let's make a reusable function to draw an arrow on the screen.
+
+Your job is to implement the `draw_arrow` function so that the "Problem2" scene render looks approximately as below:
+
+The arrow should include a line, as well as an arrowhead which indicates the direction to arrow is pointing
+The arrowhead can be a simple triangle, or a more fancy shape, but you should accomplish this using the
+draw_line and/or draw_polygon Godot functions. Don't just draw a texture! We want a nice vector-graphic here.
+
+![image](https://user-images.githubusercontent.com/392417/221946587-5d50164c-5098-4e8a-a4a4-0795498602b2.png)
