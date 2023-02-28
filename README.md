@@ -45,7 +45,7 @@ Now, let's start to use the editor to draw a Sprite on the screen. A Sprite is b
 
 Step 1. Open the Problem3.tscn file, and go to the "2D" mode in the editor.
 
-Step 2. Drag and drop the "icon.png" file from the FileSystem tab in the editor onto the center of the viewport. It should look something like the following:
+Step 2. Drag and drop the "icon.png" file from the FileSystem tab in the editor onto the center of the viewport. (The blue line in the editor shows the size of the game window) It should look something like the following:
 
 ![image](https://user-images.githubusercontent.com/392417/221952076-77a6f014-fa6c-4c81-a109-87a6c0dec9f5.png)
 
@@ -56,5 +56,15 @@ Step 3. What we want to do is make the eagle image rotate to face the mouse curs
 Consider the image above. By default, Godot is going to track the position and rotation of a Sprite from the center of the image. The red dot represents the mouse pointer position. These two points form a right triangle, with an angle θ between them.
 
 From trigonometry, what is the tan(θ)?
+
+...
+
+That's right!
+
+
+$tan(\theta) = \frac{y}{x}$
+
+
+What we want to do is find θ, given y and x which we know.
 
 
