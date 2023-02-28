@@ -71,4 +71,6 @@ To calculate $arctan$, Godot offers two functions [`atan`](https://docs.godoteng
 
 They both will return the angle you are looking for, `atan` takes one parameter, the fraction `y/x`, while `atan2` takes two parameters, `y` and `x` seperately. This works better because it avoid the nastiniess around dividing something by zero.
 
+There are also other functions in Godot that offer a shortcut to have a sprite or node rotate to "look at" another point.
 
+Step 4. Once you make the sprite rotate to face the mouse pointer, make it move towards the mouse when you press the left mouse button.
