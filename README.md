@@ -7,16 +7,14 @@ You will solve a few problems that will mostly go over the syntax, datatypes, pa
 
 ## Instructions
 
-1. Clone this repository to your computer, and open it with Godot 3.5.1.
+1. Download this repository as a zip file, and open it with Godot 3.5.1.
 
 1. In the editor, you should see each problem as a Scene within the scene list of the left. Each problem is self-contained, so start with the Problem1, then 
 click on the "Script" view to see the attached code.
 
 1. You can view the current scene by pressing the F6 key on your keyboard.
 
-1. I recommend that you make a commit after solving each problem.
-
-1. Submission instructions: TODO
+1. Submission instructions: Zip up your project folder and send it in via Canvas.
 
 ## Problems
 1. Problem 1
