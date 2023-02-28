@@ -63,9 +63,12 @@ That's right!
 
 $tan(\theta) = \frac{y}{x}$
 
-What we want to do is find θ, given y and x which we know. To do that, you will want to use the arctan function.
+What we want to do is find θ, given y and x which we know. To do that, you will want to use the inverse tangent, or arctan function.
 
 $arctan(\frac{y}{x}) = \theta\$
 
-To calculate $arctan$, Godot offers two functions (`atan`)[https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan] (`atan2`)[https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan2]
+To calculate $arctan$, Godot offers two functions [`atan`](https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan) [`atan2`](https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan2)
+
+They both will return the angle you are looking for, `atan` takes one parameter, the fraction `y/x`, while `atan2` takes two parameters, `y` and `x` seperately. This works better because it avoid the nastiniess around dividing something by zero.
+
 
