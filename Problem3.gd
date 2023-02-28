@@ -10,14 +10,17 @@ func _ready():
 func _process(delta):
 	var mouse = get_viewport().get_mouse_position()
 	
-	# Note: Once you've added the sprite to the screen, you can use the $Icon syntax to reference it in the code
+	# The look_at function will rotate an object to point at another vector, it's built into Godot
+	$Icon.look_at(mouse)
 	
-	# Write a line of code here that will rotate the $Icon to point to the mouse cursor
-	# You can use the atan2 function,  the Vector2 angle_to_point function, or the  Node2D look_at function
-	# $Icon.rotation = .....
+	# But how does it work?
+	
+	# Your job #1: Comment out the line which says "$Icon.look_at(mouse)" and write your own version
+	# which uses the arctangent function
 	
 	if Input.is_mouse_button_pressed(BUTTON_LEFT):
+		# Your job #2
 		# Write a line of code here such that pressing the mouse button will move the $Icon sprite
-		# in the direction if the mouse position
+		# in the direction of the mouse position
 		pass
 		
