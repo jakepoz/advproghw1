@@ -38,3 +38,14 @@ The arrowhead can be a simple triangle, or a more fancy shape, but you should ac
 draw_line and/or draw_polygon Godot functions. Don't just draw a texture! We want a nice vector-graphic here.
 
 ![image](https://user-images.githubusercontent.com/392417/221946587-5d50164c-5098-4e8a-a4a4-0795498602b2.png)
+
+#### Problem 3
+
+Now, let's start to use the editor to draw a Sprite on the screen. A Sprite is basically any moving texture or character that's seperate from the background.
+
+Step 1. Open the Problem3.tscn file, and go to the "2D" mode in the editor.
+Step 2. Drag and drop the "icon.png" file from the FileSystem tab in the editor onto the center of the viewport. It should look something like the following:
+
+![image](https://user-images.githubusercontent.com/392417/221952076-77a6f014-fa6c-4c81-a109-87a6c0dec9f5.png)
+
+Step 3. Open the code for Problem3, and implement the empty section there.
