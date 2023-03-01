@@ -23,9 +23,9 @@ func draw_arrow(from: Vector2, to: Vector2, color: Color):
 func _draw():
 	var screen = get_viewport_rect().size
 	
-	draw_arrow(Vector2(screen.x / 2, 20), Vector2(screen.x / 2 + screen.x / 4, screen.y / 2), Color.green)
-	draw_arrow(Vector2(screen.x / 2 + screen.x / 4, screen.y / 2), Vector2(screen.x / 2 - screen.x / 4, screen.y / 2), Color.red)
-	draw_arrow(Vector2(screen.x / 2 - screen.x / 4, screen.y / 2), Vector2(screen.x / 2, 20), Color.blueviolet)
+	draw_arrow(Vector2(screen.x / 2, 20), Vector2(screen.x / 2 + screen.x / 4, screen.y / 2), Color.GREEN)
+	draw_arrow(Vector2(screen.x / 2 + screen.x / 4, screen.y / 2), Vector2(screen.x / 2 - screen.x / 4, screen.y / 2), Color.RED)
+	draw_arrow(Vector2(screen.x / 2 - screen.x / 4, screen.y / 2), Vector2(screen.x / 2, 20), Color.BLUE_VIOLET)
 	
-	draw_arrow(Vector2(screen.x / 2 - screen.x / 4, screen.y / 2 + screen.y / 4), Vector2(screen.x / 2 + screen.x / 4, screen.y / 2 + screen.y / 4), Color.darkorange)
+	draw_arrow(Vector2(screen.x / 2 - screen.x / 4, screen.y / 2 + screen.y / 4), Vector2(screen.x / 2 + screen.x / 4, screen.y / 2 + screen.y / 4), Color.DARK_ORANGE)
 	

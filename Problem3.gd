@@ -18,7 +18,7 @@ func _process(delta):
 	# Your job #1: Comment out the line which says "$Icon.look_at(mouse)" and write your own version
 	# which uses the arctangent function
 	
-	if Input.is_mouse_button_pressed(BUTTON_LEFT):
+	if Input.is_mouse_button_pressed(MOUSE_BUTTON_LEFT):
 		# Your job #2
 		# Write a line of code here such that pressing the mouse button will move the $Icon sprite
 		# in the direction of the mouse position
