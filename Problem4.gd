@@ -22,7 +22,7 @@ func easeOutCubic(x):
 func easeInCubic(x):
 		# Input: x, goes from 0.0 to 1.0
 	# Output: goes from 0.0 to 1.0, but with a cubic ease-in function applied
-	# Your Job #2: implement a cubic easing function, so that the initially the output moves very slow, then speeds up
+	# Your Job #2: implement a cubic easing function, so that the initially the output moves very slowly, then speeds up
 	return x
 
 
