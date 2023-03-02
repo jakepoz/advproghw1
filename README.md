@@ -80,5 +80,7 @@ Step 4. Once you make the sprite rotate to face the mouse pointer, make it move 
 
 Easing functions are a great way to make your animations more dynamic and engaging. Nothing in real life just moves linearly, with a constant speed, from one point to another.
 
+Check out Problem4.tscn in the project, and implement the cubic ease-in and ease-out so that you get a nice smooth animation like the one in the screenshot below.
+
 ![Recording 2023-03-02 at 11 24 59](https://user-images.githubusercontent.com/392417/222531404-206bbbf9-10cc-4f1c-b844-d737c9ccdc66.gif)
 
