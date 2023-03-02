@@ -25,7 +25,7 @@ We will start with some simple static drawing commands. Please draw a circle tha
 
 You can use the `get_viewport_rect()` function to get a [Rect2](https://docs.godotengine.org/en/stable/classes/class_rect2.html) which tells you the width and height of the screen. Then, write another call to `draw_circle` to accomplish your task.
 
-![image](https://user-images.githubusercontent.com/392417/221939038-43c13a1b-4305-4d13-8191-e46c0814f700.png)
+![image](https://user-images.githubusercontent.com/392417/222298995-6a618cf6-c870-4726-b9ab-f300cd741a4e.png)
 
 #### Problem 2
 
