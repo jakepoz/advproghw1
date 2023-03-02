@@ -78,6 +78,7 @@ Step 4. Once you make the sprite rotate to face the mouse pointer, make it move 
 
 #### Problem 4
 
-Easing functions
+Easing functions are a great way to make your animations more dynamic and engaging. Nothing in real life just moves linearly, with a constant speed, from one point to another.
 
-![Recording 2023-03-02 at 11 23 13](https://user-images.githubusercontent.com/392417/222530965-54693631-94f7-4207-bdd0-fcb284d04e4f.gif)
+![Recording 2023-03-02 at 11 24 59](https://user-images.githubusercontent.com/392417/222531404-206bbbf9-10cc-4f1c-b844-d737c9ccdc66.gif)
+
