@@ -17,8 +17,7 @@ func draw_arrow(from: Vector2, to: Vector2, color: Color):
 	# It should include a line, as well as an arrowhead which indicates the direction
 	# The arrowhead can be a simple triangle, or a more fancy shape, but you should accomplish this using the
 	# draw_line and/or draw_polygon Godot functions
-	
-	# Your code here
+
 
 func _draw():
 	var screen = get_viewport_rect().size

@@ -21,5 +21,5 @@ func _draw():
 	
 	# HW1 - Problem 1
 	# Draw a circle with color blueviolet which is centered along X axis, and the bottom is touching the bottom of the window
-
-	draw_string(main_font, Vector2(0, get_viewport_rect().size.y - 50), "This circle is centered on the X, and touching the bottom of the screen")
+	
+	draw_string(main_font, Vector2(0, get_viewport_rect().size.y - 50), "This circle is centered on the X, and touching the bottom of the screen", HORIZONTAL_ALIGNMENT_CENTER, get_viewport_rect().size.x)
