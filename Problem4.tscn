@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://cp84kkdog8hpf"]
+
+[ext_resource type="Script" path="res://Problem4.gd" id="1_0l1bk"]
+[ext_resource type="Texture2D" uid="uid://cuxka00y2vm5n" path="res://icon.png" id="1_wnife"]
+
+[node name="Problem4" type="Node2D"]
+script = ExtResource("1_0l1bk")
+
+[node name="LinearIcon" type="Sprite2D" parent="."]
+position = Vector2(131, 184)
+texture = ExtResource("1_wnife")
+
+[node name="CubicIcon" type="Sprite2D" parent="."]
+position = Vector2(131, 503)
+texture = ExtResource("1_wnife")
+
+[node name="LinearLabel" type="Label" parent="."]
+offset_left = 7.0
+offset_top = 18.0
+offset_right = 141.0
+offset_bottom = 44.0
+text = "Linear Animation"
+
+[node name="CubicLabel" type="Label" parent="."]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 7.0
+offset_top = 336.0
+offset_right = 141.0
+offset_bottom = 362.0
+grow_vertical = 2
+text = "Cubic Easing
+"
+metadata/_edit_use_anchors_ = true
