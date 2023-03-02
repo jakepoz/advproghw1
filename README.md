@@ -71,6 +71,13 @@ $arctan(\frac{y}{x}) = \theta\$
 
 To calculate $arctan$, Godot offers two functions [`atan`](https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan) [`atan2`](https://docs.godotengine.org/en/3.5/classes/class_%40gdscript.html#class-gdscript-method-atan2)
 
-They both will return the angle you are looking for, `atan` takes one parameter, the fraction `y/x`, while `atan2` takes two parameters, `y` and `x` seperately. `atan2` works better because it avoid the nastiniess around dividing something by zero.
+They both will return the angle you are looking for, `atan` takes one parameter, the fraction `y/x`, while `atan2` takes two parameters, `y` and `x` seperately. `atan2` works better!
+ because it avoid the nastiniess around dividing something by zero.
 
 Step 4. Once you make the sprite rotate to face the mouse pointer, make it move towards the mouse when you press the left mouse button.
+
+#### Problem 4
+
+Easing functions
+
+![Recording 2023-03-02 at 11 23 13](https://user-images.githubusercontent.com/392417/222530965-54693631-94f7-4207-bdd0-fcb284d04e4f.gif)
