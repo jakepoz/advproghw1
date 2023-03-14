@@ -7,7 +7,7 @@ You will solve a few problems that will mostly go over the syntax of GDScript, p
 
 ## Instructions
 
-1. Download this repository as a zip file, and open it with Godot 3.5.1.
+1. Download this repository as a zip file, and open it with Godot 4.
 
 1. In the editor, you should see each problem as a Scene within the filesystem list of the left. Each problem is self-contained, so start with the Problem1, then click on the "Script" view to see the attached code.
 
